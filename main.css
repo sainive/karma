@@ -1,0 +1,160 @@
+body {}
+
+.container {
+    width: 100%;
+}
+
+.nav {}
+
+
+/*does postion top overlaps next element as well?*/
+
+.header {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    position: fixed;
+    top: 0px;
+}
+
+.header img {
+    height: 5x;
+    width: 30px;
+    margin-left: 300px;
+}
+
+
+/*is this okay I had postion relative*/
+
+.headnav {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+.headnav ul {
+    margin-left: 180px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.headnav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.headnav ul li a {
+    text-decoration: none;
+}
+
+
+/*ask about cover is not working as expected and as well as I had
+height 140 and the image was not expanded till 140%*/
+
+.karmaimg {
+    background-image: url("plant2.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.karmaimg .intr p {
+    padding-top: 350px;
+    color: white;
+    font-size: 30px;
+}
+
+.karmaimg .bring p {
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
+
+.sub button {}
+
+button[type="submit"] {
+    background-color: orange;
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+
+.bottom {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bottom ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.devices {
+    margin-right: 80px;
+}
+
+.devices img {
+    height: 140px;
+    width: 140px;
+}
+
+.devices p {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif
+}
+
+.coffee {
+    margin-right: 80px;
+}
+
+.coffee > p {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif
+}
+
+.coffee img {
+    height: 140px;
+    width: 140px;
+}
+
+.gas {
+    padding-bottom: 80px;
+}
+
+
+}
+.gas > p {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif
+}
+.gas img {
+    height: 140px;
+    width: 140px;
+}
+.bottom > p {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.border {
+    border-bottom: gr
+}
+.line {
+    background-color: lightgray;
+    margin-left: 300px;
+    margin-right: 100px;
+    width: 800px;
+    height: 2px;
+}
