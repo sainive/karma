@@ -1,207 +1,221 @@
-body {}
+    body {}
 
-.container {
-    width: 100%;
-}
+        .container {
+            width: 100%;
+        }
 
-.nav {}
+        .nav {}
+        /*does postion top overlaps next element as well?*/
 
+        .header {
+            display: inline-block;
+            background-color: white;
+            width: 100%;
+            height: 60px;
+            padding-top: 10px;
+            position: fixed;
+            top: 0px;
+        }
 
-/*does postion top overlaps next element as well?*/
+        .header img {
+            height: 5x;
+            width: 30px;
+            margin-left: 300px;
+        }
+        /*is this okay I had postion relative*/
 
-.header {
-    display: inline-block;
-    background-color: white;
-    width: 100%;
-    height: 60px;
-    padding-top: 10px;
-    position: fixed;
-    top: 0px;
-}
+        .headnav {
+            display: inline-block;
+            position: relative;
+            bottom: 15px;
+        }
 
-.header img {
-    height: 5x;
-    width: 30px;
-    margin-left: 300px;
-}
+        .headnav ul {
+            margin-left: 180px;
+            padding-bottom: 10px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
 
+        .headnav ul li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 20px;
+        }
 
-/*is this okay I had postion relative*/
+        .headnav ul li a {
+            text-decoration: none;
+            color: grey;
+            font-size: 20px;
+        }
 
-.headnav {
-    display: inline-block;
-    position: relative;
-    bottom: 15px;
-}
-
-.headnav ul {
-    margin-left: 180px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-.headnav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.headnav ul li a {
-    text-decoration: none;
-    color: grey;
-    font-size: 20px;
-}
-
-.headnav ul li a:hover {
-    color: black;
-}
-
-
-/*ask about cover is not working as expected and as well as I had
+        .headnav ul li a:hover {
+            color: black;
+        }
+        /*ask about cover is not working as expected and as well as I had
 height 140 and the image was not expanded till 140%*/
 
-.karmaimg {
-    background-image: url("plant2.jpg");
-    background-size: 100%;
-    width: 100%;
-    height: 110%;
-    background-repeat: no-repeat;
-    text-align: center;
-}
+        .karmaimg {
+            background-image: url("plant2.jpg");
+            background-size: 100%;
+            width: 100%;
+            height: 110%;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
 
-.karmaimg .intr p {
-    padding-top: 350px;
-    color: white;
-    font-size: 30px;
-}
+        .karmaimg .intr p {
+            padding-top: 350px;
+            color: white;
+            font-size: 30px;
+        }
 
-.karmaimg .bring p {
-    padding-top: 30px;
-    color: white;
-    font-size: 30px;
-    font-family: "Times New Roman";
-}
+        .karmaimg .bring p {
+            padding-top: 30px;
+            color: white;
+            font-size: 30px;
+            font-family: "Times New Roman";
+        }
 
-.sub button {}
+        .sub button {}
 
-button[type="submit"] {
-    background-color: orange;
-    color: white;
-    width: 160px;
-    height: 60px;
-    border-radius: 10%;
-    font-size: 20px;
-}
+        button[type="submit"] {
+            background-color: orange;
+            color: white;
+            width: 160px;
+            height: 60px;
+            border-radius: 10%;
+            font-size: 20px;
+        }
 
-.bottom {
-    margin-top: 60px;
-    text-align: center;
-}
+        .bottom {
+            margin-top: 60px;
+            text-align: center;
+        }
 
-.bottom ul li {
-    list-style: none;
-    display: inline-block;
-}
+        .bottom ul li {
+            list-style: none;
+            display: inline-block;
+        }
 
-.devices {
-    margin-right: 80px;
-}
+        .devices {
+            margin-right: 80px;
+        }
 
-.devices img {
-    height: 140px;
-    width: 140px;
-}
+        .devices img {
+            height: 140px;
+            width: 140px;
+        }
 
-.devices p {
-    font-size: 20px;
-    font-weight: normal;
-    font-family: sans-serif
-}
+        .devices p {
+            font-size: 20px;
+            font-weight: normal;
+            font-family: sans-serif
+        }
 
-.coffee {
-    margin-right: 80px;
-}
+        .coffee {
+            margin-right: 80px;
+        }
 
-.coffee > p {
-    font-size: 20px;
-    font-weight: normal;
-    font-family: sans-serif
-}
+        .coffee > p {
+            font-size: 20px;
+            font-weight: normal;
+            font-family: sans-serif
+        }
 
-.coffee img {
-    height: 140px;
-    width: 140px;
-}
+        .coffee img {
+            height: 140px;
+            width: 140px;
+        }
 
-.gas {
-    padding-bottom: 80px;
+        .gas {
+            padding-bottom: 80px;
+        }
+    }
+    .gas > p {
+        font-size: 20px;
+        font-weight: normal;
+        font-family: sans-serif
+    }
+    .gas img {
+        height: 140px;
+        width: 140px;
+    }
+    .bottom > p {
+        font-size: 50px;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+    .border {
+        border-bottom: gr
+    }
+    .line {
+        background-color: lightgray;
+        margin-left: 300px;
+        margin-right: 100px;
+        width: 800px;
+        height: 2px;
+    }
+    .footer ul {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .footer ul li {
+        display: inline-block;
+        list-style: none;
+        padding-right: 20px;
+    }
+    i[class="fa fa-twitter-square"] {
+        background-color: white;
+        color: skyblue;
+        padding: 20px;
+        border-style: groove;
+        border-width: 1px;
+        border-radius: 50%;
+        border-color: grey;
+    }
+    i[class="fa fa-facebook"] {
+        background-color: white;
+        color: #3B5998;
+        padding: 20px;
+        border-style: groove;
+        border-width: 1px;
+        border-radius: 50%;
+        border-color: grey;
+    }
+    i[class="fa fa-instagram"] {
+        background-color: white;
+        padding: 20px;
+        border-style: groove;
+        border-width: 1px;
+        border-radius: 50%;
+        border-color: grey;
+    }
+    .footer p {
+        text-align: center;
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /* For responsive page css*/
+    /*
+.col-12::before,
+.col-12::after {
+    display: table;
+    content: '';
 }
-
-
+.col-12::after {
+    clear: both;
 }
-.gas > p {
-    font-size: 20px;
-    font-weight: normal;
-    font-family: sans-serif
-}
-.gas img {
-    height: 140px;
-    width: 140px;
-}
-.bottom > p {
-    font-size: 50px;
-    font-weight: lighter;
-    font-family: sans-serif;
-}
-.border {
-    border-bottom: gr
-}
-.line {
-    background-color: lightgray;
-    margin-left: 300px;
-    margin-right: 100px;
-    width: 800px;
-    height: 2px;
-}
-.footer ul {
-    text-align: center;
-    margin-top: 30px;
-}
-.footer ul li {
-    display: inline-block;
-    list-style: none;
+.col-12 {
+    float: left;
+    padding-left: 20px;
     padding-right: 20px;
 }
-i[class="fa fa-twitter-square"] {
-    background-color: white;
-    color: skyblue;
-    padding: 20px;
-    border-style: groove;
-    border-width: 1px;
-    border-radius: 50%;
-    border-color: grey;
+.col-3 {
+    min-width: 50%;
 }
-i[class="fa fa-facebook"] {
-    background-color: white;
-    color: #3B5998;
-    padding: 20px;
-    border-style: groove;
-    border-width: 1px;
-    border-radius: 50%;
-    border-color: grey;
-}
-i[class="fa fa-instagram"] {
-    background-color: white;
-    padding: 20px;
-    border-style: groove;
-    border-width: 1px;
-    border-radius: 50%;
-    border-color: grey;
-}
-.footer p {
-    text-align: center;
-    margin-right: 10px;
-    font-weight: bold;
-    font-size: 20px;
-}
+@media only screen and(min-width: 640px) {
+    .col-12 {
+        min-width: 100%;
+*/
