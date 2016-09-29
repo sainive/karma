@@ -49,6 +49,12 @@ body {}
 
 .headnav ul li a {
     text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.headnav ul li a:hover {
+    color: black;
 }
 
 
@@ -157,4 +163,45 @@ button[type="submit"] {
     margin-right: 100px;
     width: 800px;
     height: 2px;
+}
+.footer ul {
+    text-align: center;
+    margin-top: 30px;
+}
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+i[class="fa fa-twitter-square"] {
+    background-color: white;
+    color: skyblue;
+    padding: 20px;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: grey;
+}
+i[class="fa fa-facebook"] {
+    background-color: white;
+    color: #3B5998;
+    padding: 20px;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: grey;
+}
+i[class="fa fa-instagram"] {
+    background-color: white;
+    padding: 20px;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: grey;
+}
+.footer p {
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
